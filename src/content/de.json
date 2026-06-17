@@ -1,0 +1,275 @@
+{
+  "localeName": "Deutsch",
+  "meta": {
+    "title": "OzGen AI | KI-Wachstum, Automatisierung und digitale Produkte",
+    "description": "Ein Studio für KI-gestütztes Wachstum, Automatisierung und digitale Produkte für Unternehmen mit weniger manueller Arbeit und stärkerer digitaler Präsenz."
+  },
+  "nav": {
+    "services": "Leistungen",
+    "work": "Referenzen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "consultation": "Kostenloses Erstgespräch",
+    "menu": "Menü"
+  },
+  "hero": {
+    "eyebrow": "KI-Wachstumsstudio für Unternehmen",
+    "title": "Weniger manuelle Arbeit. Stärkere digitale Präsenz. Schnelleres Wachstum.",
+    "description": "OzGen AI entwickelt KI-Automatisierungen, Web- und Mobile-Produkte, Werbeinhalte und digitale Transformationssysteme für Unternehmen.",
+    "primaryCta": "Projekt starten",
+    "secondaryCta": "Leistungen ansehen",
+    "pillars": [
+      "Automatisieren",
+      "Bauen",
+      "Erstellen"
+    ]
+  },
+  "techStack": {
+    "ariaLabel": "Vernetzte Leistungen",
+    "supportedPlatforms": "Unterstützte Plattformen",
+    "openCapability": "{title} öffnen",
+    "nodes": [
+      {
+        "slug": "uygulama",
+        "title": "Mobile Apps",
+        "detail": "iOS & Android"
+      },
+      {
+        "slug": "web-sitesi",
+        "title": "Websites",
+        "detail": "Sites & Portale"
+      },
+      {
+        "slug": "reklam",
+        "title": "Social Media",
+        "detail": "Inhalte"
+      },
+      {
+        "slug": "ai-donusumu",
+        "title": "Automatisierung",
+        "detail": "Abläufe"
+      },
+      {
+        "slug": "danismanlik",
+        "title": "Beratung",
+        "detail": "Strategie"
+      },
+      {
+        "slug": "marketing",
+        "title": "Marketing",
+        "detail": "Wachstum"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "title": "Software, Automatisierung und intelligente Systeme unter einem Dach.",
+    "description": "Wir sind zuerst ein Softwareunternehmen. KI wird dort Teil des Systems, wo sie Geschwindigkeit, Klarheit und Skalierung schafft.",
+    "items": [
+      {
+        "slug": "ai-donusumu",
+        "shortTitle": "KI-Transformation",
+        "title": "Wir automatisieren wiederkehrende Arbeit mit künstlicher Intelligenz.",
+        "description": "Wir bauen Systeme für Formulare, E-Mails, Kundenanfragen, Berichte und Follow-up-Prozesse, damit Ihr Team weniger manuelle Arbeit erledigt.",
+        "features": [
+          "Kundensupport- und Lead-Tracking-Systeme",
+          "WhatsApp-, E-Mail- und Formularautomationen",
+          "Angebots-, Reporting- und Content-Prozesse",
+          "Interne Assistenten mit künstlicher Intelligenz"
+        ],
+        "result": "Ihr Team steuert mehr Arbeit mit weniger operativem Aufwand.",
+        "cta": "Workflow analysieren",
+        "image": "/images/service-ai-automation.webp",
+        "imageAlt": "Business workflow automation dashboard with forms, messages, reports and assistant panels"
+      },
+      {
+        "slug": "web-sitesi",
+        "shortTitle": "Websites",
+        "title": "Wir bauen schnelle Websites, die Vertrauen schaffen und Besucher in Kunden verwandeln.",
+        "description": "Unternehmensseiten, Landingpages und mehrsprachige Webstrukturen machen Ihren digitalen Auftritt klar, professionell und conversion-orientiert.",
+        "features": [
+          "Unternehmenswebsite",
+          "Produkt- oder Service-Landingpage",
+          "Mehrsprachige Struktur",
+          "SEO- und performance-orientierter Aufbau"
+        ],
+        "result": "Ihre Website sieht nicht nur gut aus; sie führt Besucher zur Handlung.",
+        "cta": "Website planen",
+        "image": "/images/service-websites.webp",
+        "imageAlt": "Responsive corporate website and landing page mockups across desktop and mobile screens"
+      },
+      {
+        "slug": "reklam",
+        "shortTitle": "Ads & KI-Content",
+        "title": "Wir erstellen schnelle, aufmerksamkeitsstarke Werbeinhalte für Ihre Marke.",
+        "description": "Wir produzieren video-, bild- und kreativorientierte Inhalte für Instagram, TikTok und Kampagnentests mit Unterstützung künstlicher Intelligenz.",
+        "features": [
+          "Realistische Werbevideo-Konzepte",
+          "Instagram- und TikTok-Inhalte",
+          "Produkt-, Menü- und Kampagnenvisuals",
+          "Reale Aufnahmen mit künstlicher Intelligenz verstärken"
+        ],
+        "result": "Sie testen mehr Ideen und veröffentlichen stärkere Kampagnen in kürzerer Zeit.",
+        "cta": "Content-Idee besprechen",
+        "image": "/images/service-ai-content.webp",
+        "imageAlt": "Advertising content production board with video timeline, campaign visuals and creative assets"
+      },
+      {
+        "slug": "uygulama",
+        "shortTitle": "Web & Mobile Apps",
+        "title": "Wir entwickeln individuelle Web- und Mobile-Anwendungen für Ihr Unternehmen.",
+        "description": "Wir gestalten und entwickeln digitale Produkte für Kunden oder interne Teams von der Idee bis zum Launch.",
+        "features": [
+          "Webanwendungen und Admin-Panels",
+          "iOS- und Android-Apps",
+          "Buchungs-, Bestell- und Kundenportale",
+          "Digitale Menü-, Katalog- und Betriebssysteme"
+        ],
+        "result": "Ihr Unternehmen erhält ein nutzbares, skalierbares digitales Produkt.",
+        "cta": "App-Idee prüfen",
+        "image": "/images/service-apps-poster.webp",
+        "imageAlt": "Web admin dashboard with iOS and Android application screens"
+      },
+      {
+        "slug": "danismanlik",
+        "shortTitle": "Beratung",
+        "title": "Wir klären, wo künstliche Intelligenz und digitale Transformation starten sollten.",
+        "description": "Wir analysieren Ihre Anforderungen und bestimmen, welche Prozesse durch Automatisierung, bessere Tools oder digitale Produkte verbessert werden können.",
+        "features": [
+          "Roadmap für künstliche Intelligenz",
+          "Prozess- und Toolanalyse",
+          "Technologieauswahl",
+          "Team- und Operations-Beratung"
+        ],
+        "result": "Sie starten an der richtigen Stelle, ohne Budget für unnötige Tools zu verlieren.",
+        "cta": "Beratungsgespräch buchen",
+        "image": "/images/service-consulting.webp",
+        "imageAlt": "Strategy roadmap and process planning board for digital transformation consulting"
+      },
+      {
+        "slug": "marketing",
+        "shortTitle": "Marketing",
+        "title": "Wir verwandeln Ihren digitalen Auftritt in ein messbares Wachstumssystem.",
+        "description": "Wir verbinden Content, Kampagnenplanung, Analytics und Lead-Follow-up, damit Marketingentscheidungen klarer und besser steuerbar werden.",
+        "features": [
+          "Kampagnenplanung und Launch-Struktur",
+          "Zielgruppen-, Funnel- und Conversion-Tracking",
+          "Content-Kalender und Creative-Tests",
+          "Lead-Follow-up und Reporting-Workflows"
+        ],
+        "result": "Ihr Marketing lässt sich leichter steuern, messen und verbessern.",
+        "cta": "Marketing-System planen",
+        "image": "/images/service-marketing.webp",
+        "imageAlt": "Marketing operations dashboard with campaign planning, funnel analytics and content calendar panels"
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "Referenzen",
+    "title": "Kundenfeedback",
+    "description": "Ausgewählte Referenzen, in alle Seitensprachen übertragen und aus bestehendem Kundenfeedback adaptiert.",
+    "pendingTitle": "Echte Referenzen werden vorbereitet.",
+    "pendingDescription": "Wir zeigen keine erfundenen Logos oder übertriebenen Ergebnisse. Freigegebene Arbeiten erscheinen hier nach Prüfung.",
+    "cta": "Projekt besprechen"
+  },
+  "process": {
+    "eyebrow": "Prozess",
+    "title": "Ein klarerer Weg von der Idee zum funktionierenden Produkt.",
+    "description": "Wir verwandeln Geschäftsbedarf in Software, Automatisierung und KI-gestützte Abläufe, mit einem Prozess, der von Tag eins sichtbar bleibt.",
+    "steps": [
+      "Bedarf verstehen",
+      "Lösung planen",
+      "Designen und entwickeln",
+      "Launchen und verbessern"
+    ]
+  },
+  "trust": {
+    "eyebrow": "Warum OzGen AI",
+    "title": "Gebaut wie ein Softwareunternehmen, nicht wie ein Einzelprojekt.",
+    "cards": [
+      {
+        "title": "Produktorientierte Umsetzung",
+        "description": "Wir entwerfen Systeme, die sich weiterentwickeln können, statt statische Seiten zu bauen, die bei jeder Veränderung neu entstehen müssen."
+      },
+      {
+        "title": "KI dort, wo sie zählt",
+        "description": "KI wird in Workflows, Content-Pipelines und internen Tools eingesetzt, wenn sie echte operative Hebelwirkung erzeugt."
+      },
+      {
+        "title": "Engineering-Disziplin",
+        "description": "Integrationen, Analytics, E-Mail und externe Anbieter bleiben hinter klaren Verträgen isoliert."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Nächster Schritt",
+    "title": "Lassen Sie uns ein Geschäftsproblem in ein funktionierendes digitales System verwandeln.",
+    "description": "Teilen Sie, was Sie verbessern möchten. Wir schlagen den einfachsten sinnvollen Startpunkt vor.",
+    "button": "Kostenloses Erstgespräch buchen"
+  },
+  "about": {
+    "metaTitle": "Über OzGen AI",
+    "metaDescription": "OzGen AI hilft Unternehmen, manuelle Arbeit zu reduzieren, professioneller aufzutreten und mehr Kunden zu gewinnen.",
+    "eyebrow": "Über uns",
+    "title": "OzGen AI ist ein Studio für KI-gestütztes Wachstum, Automatisierung und digitale Produkte.",
+    "description": "Wir helfen Unternehmen, manuelle Arbeit zu reduzieren, digitale Präsenz zu stärken und wiederkehrende Abläufe in Systeme zu verwandeln.",
+    "body": [
+      "Unsere Arbeit ist bewusst fokussiert: KI-Transformation, Websites, Werbeinhalte, Web- und Mobile-Apps sowie praktische Beratung.",
+      "Wir verkaufen keine vage Transformation. Wir erfassen den Workflow, wählen den richtigen Startpunkt, bauen Produkt oder Automatisierung und verbessern nach dem Launch."
+    ],
+    "principlesTitle": "Wie wir arbeiten",
+    "principles": [
+      "Geschäftsregeln bleiben von Provider-Tools getrennt.",
+      "Nebenwirkungen sind sichtbar und bewusst geordnet.",
+      "Jede Lösung soll auch sechs Monate später verständlich und änderbar sein."
+    ]
+  },
+  "contact": {
+    "metaTitle": "Kontakt zu OzGen AI",
+    "metaDescription": "Starten Sie ein Projekt oder buchen Sie ein kostenloses Erstgespräch mit OzGen AI.",
+    "eyebrow": "Kontakt",
+    "title": "Sagen Sie uns, was Sie verbessern möchten.",
+    "description": "Kurz reicht. Wir melden uns mit dem besten ersten Schritt für Ihr Unternehmen.",
+    "form": {
+      "name": "Vollständiger Name",
+      "email": "E-Mail",
+      "company": "Unternehmen / Marke",
+      "service": "Interessierte Leistung",
+      "message": "Kurze Beschreibung",
+      "budget": "Budgetrahmen",
+      "timeline": "Startzeitpunkt",
+      "consent": "Ich stimme zu, zu dieser Anfrage kontaktiert zu werden.",
+      "submit": "Anfrage senden",
+      "submitting": "Wird gesendet...",
+      "optional": "Optional",
+      "selectService": "Leistung auswählen",
+      "successTitle": "Anfrage erhalten.",
+      "successDescription": "Danke. Wir prüfen Ihre Nachricht und melden uns mit einem praktischen nächsten Schritt.",
+      "errorTitle": "Die Anfrage konnte nicht gesendet werden.",
+      "errorDescription": "Bitte prüfen Sie die Felder und versuchen Sie es erneut."
+    },
+    "budgetOptions": [
+      "Noch unsicher",
+      "Unter €2k",
+      "€2k-€5k",
+      "€5k-€10k",
+      "€10k+"
+    ],
+    "timelineOptions": [
+      "Noch unsicher",
+      "Diesen Monat",
+      "1-3 Monate",
+      "3+ Monate"
+    ]
+  },
+  "consent": {
+    "title": "Analytics-Zustimmung",
+    "description": "Nach Zustimmung nutzen wir GA4 und Microsoft Clarity, um die Nutzung aggregiert zu verstehen.",
+    "accept": "Analytics erlauben",
+    "reject": "Nur notwendig"
+  },
+  "footer": {
+    "tagline": "Automatisieren. Bauen. Erstellen.",
+    "copyright": "OzGen AI. Alle Rechte vorbehalten."
+  }
+}

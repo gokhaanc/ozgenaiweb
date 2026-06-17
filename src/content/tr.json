@@ -1,0 +1,275 @@
+{
+  "localeName": "Türkçe",
+  "meta": {
+    "title": "OzGen AI | AI Büyüme, Otomasyon ve Dijital Ürünler",
+    "description": "Daha az manuel iş, daha güçlü dijital varlık ve daha fazla müşteri isteyen işletmeler için AI destekli büyüme, otomasyon ve dijital ürün stüdyosu."
+  },
+  "nav": {
+    "services": "Hizmetler",
+    "work": "Referanslar",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "consultation": "Ücretsiz Ön Görüşme",
+    "menu": "Menü"
+  },
+  "hero": {
+    "eyebrow": "",
+    "title": "Daha az manuel iş.\nDaha güçlü dijital varlık.\nDaha hızlı büyüme.",
+    "description": "İşletmelerin manuel işlerini azaltmasına, dijitalde daha profesyonel görünmesine ve yazılım ile yapay zeka sayesinde daha fazla müşteri kazanmasına yardımcı oluruz.",
+    "primaryCta": "Projeni konuşalım",
+    "secondaryCta": "Hizmetleri incele",
+    "pillars": [
+      "Otomasyon",
+      "Dijital ürün",
+      "AI içerik"
+    ]
+  },
+  "techStack": {
+    "ariaLabel": "Bağlı hizmet ağı",
+    "supportedPlatforms": "Desteklenen platformlar",
+    "openCapability": "{title} hizmetini aç",
+    "nodes": [
+      {
+        "slug": "uygulama",
+        "title": "Mobil uygulamalar",
+        "detail": "iOS ve Android"
+      },
+      {
+        "slug": "web-sitesi",
+        "title": "Web siteleri",
+        "detail": "Siteler ve portallar"
+      },
+      {
+        "slug": "reklam",
+        "title": "Sosyal medya",
+        "detail": "İçerik"
+      },
+      {
+        "slug": "ai-donusumu",
+        "title": "Otomasyon",
+        "detail": "Operasyon"
+      },
+      {
+        "slug": "danismanlik",
+        "title": "Danışmanlık",
+        "detail": "Strateji"
+      },
+      {
+        "slug": "marketing",
+        "title": "Pazarlama",
+        "detail": "Büyüme"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "",
+    "title": "Yazılım, otomasyon ve akıllı sistemler tek çatı altında.",
+    "description": "",
+    "items": [
+      {
+        "slug": "ai-donusumu",
+        "shortTitle": "AI Dönüşümü",
+        "title": "Tekrarlayan işleri yapay zeka ile otomatikleştiriyoruz.",
+        "description": "Formlar, mailler, müşteri talepleri, raporlar ve takip süreçleri için işletmenize özel sistemler kuruyoruz.",
+        "features": [
+          "Müşteri destek ve lead takip sistemleri",
+          "WhatsApp, email ve form otomasyonları",
+          "Teklif, rapor ve içerik üretim akışları",
+          "Şirket içi yapay zeka asistanları"
+        ],
+        "result": "Ekibiniz daha az operasyonla daha fazla işi yönetir.",
+        "cta": "İş akışımı analiz et",
+        "image": "/images/service-ai-automation.webp",
+        "imageAlt": "Formlar, mesajlar, raporlar ve asistan panelleri olan iş akışı otomasyon paneli"
+      },
+      {
+        "slug": "web-sitesi",
+        "shortTitle": "Web Sitesi",
+        "title": "Güven veren, hızlı ve müşteriye dönüşen web siteleri yapıyoruz.",
+        "description": "Kurumsal siteler, landing page’ler ve çok dilli web yapılarıyla markanızın dijital vitrini profesyonel hale gelir.",
+        "features": [
+          "Kurumsal web sitesi",
+          "Ürün veya hizmet landing page’i",
+          "Çok dilli yapı",
+          "SEO ve performans odaklı kurulum"
+        ],
+        "result": "Siteniz sadece güzel görünmez; ziyaretçiyi aksiyona yönlendirir.",
+        "cta": "Web sitemi planla",
+        "image": "/images/service-websites.webp",
+        "imageAlt": "Masaüstü ve mobil ekranlarda kurumsal web sitesi ve landing page arayüzleri"
+      },
+      {
+        "slug": "reklam",
+        "shortTitle": "Reklam & AI İçerik",
+        "title": "Markanız için hızlı, dikkat çeken ve test edilebilir reklam içerikleri üretiyoruz.",
+        "description": "Instagram, TikTok ve reklam kampanyaları için yapay zeka destekli video, görsel ve yaratıcı içerikler hazırlarız.",
+        "features": [
+          "Gerçekçi reklam video konseptleri",
+          "Instagram ve TikTok içerikleri",
+          "Ürün, menü ve kampanya görselleri",
+          "Gerçek çekimleri yapay zeka ile güçlendirme"
+        ],
+        "result": "Daha fazla içerik fikrini daha kısa sürede yayına alırsınız.",
+        "cta": "İçerik fikrimi konuşalım",
+        "image": "/images/service-ai-content.webp",
+        "imageAlt": "Video zaman çizgisi, kampanya görselleri ve yaratıcı varlıklar içeren reklam içerik üretim paneli"
+      },
+      {
+        "slug": "uygulama",
+        "shortTitle": "Web & Mobil Uygulama",
+        "title": "İşletmenize özel web ve mobil uygulamalar geliştiriyoruz.",
+        "description": "Müşterilerinizin veya ekibinizin kullanacağı dijital ürünleri fikir aşamasından yayına kadar tasarlayıp geliştiriyoruz.",
+        "features": [
+          "Web uygulamaları ve admin paneller",
+          "iOS ve Android mobil uygulamalar",
+          "Rezervasyon, sipariş ve müşteri portalları",
+          "Dijital menü, katalog ve işletme sistemleri"
+        ],
+        "result": "İşletmenize özel, kullanılabilir ve ölçeklenebilir dijital ürünler ortaya çıkar.",
+        "cta": "Uygulama fikrimi değerlendir",
+        "image": "/images/service-apps-poster.webp",
+        "imageAlt": "Web admin paneli ve iOS Android uygulama ekranları"
+      },
+      {
+        "slug": "danismanlik",
+        "shortTitle": "Danışmanlık",
+        "title": "Yapay zeka ve dijital dönüşümde nereden başlayacağınızı birlikte netleştiriyoruz.",
+        "description": "İşletmenizin ihtiyaçlarını analiz eder, hangi süreçlerin otomasyonla veya dijital ürünlerle iyileştirilebileceğini belirleriz.",
+        "features": [
+          "Yapay zeka dönüşüm yol haritası",
+          "Süreç ve araç analizi",
+          "Teknoloji seçimi",
+          "Ekip ve operasyon danışmanlığı"
+        ],
+        "result": "Gereksiz araçlara para harcamadan doğru yerden başlarsınız.",
+        "cta": "Danışmanlık görüşmesi al",
+        "image": "/images/service-consulting.webp",
+        "imageAlt": "Dijital dönüşüm danışmanlığı için strateji yol haritası ve süreç planlama panosu"
+      },
+      {
+        "slug": "marketing",
+        "shortTitle": "Marketing",
+        "title": "Dijital varlığınızı ölçülebilir bir büyüme sistemine dönüştürüyoruz.",
+        "description": "İçerik, kampanya planı, analiz ve lead takibini aynı akışta birleştirerek pazarlama kararlarını daha net hale getiriyoruz.",
+        "features": [
+          "Kampanya planlama ve yayın akışı",
+          "Kitle, funnel ve dönüşüm takibi",
+          "İçerik takvimi ve kreatif testler",
+          "Lead takip ve raporlama akışları"
+        ],
+        "result": "Marketing süreciniz daha kolay yönetilir, ölçülür ve geliştirilir.",
+        "cta": "Marketing sistemimi planla",
+        "image": "/images/service-marketing.webp",
+        "imageAlt": "Kampanya planı, funnel analizi ve içerik takvimi panelleri olan marketing operasyon paneli"
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "",
+    "title": "Müşteri yorumları",
+    "description": "",
+    "pendingTitle": "Gerçek referanslar hazırlanıyor.",
+    "pendingDescription": "Sahte müşteri logosu veya abartılı sonuç göstermiyoruz. Onaylanan müşteri işleri, görseller ve sonuçlar doğrulandıktan sonra buraya eklenecek.",
+    "cta": "Projemi konuşalım"
+  },
+  "process": {
+    "eyebrow": "",
+    "title": "Fikirden çalışan ürüne daha net bir yol.",
+    "description": "İş ihtiyacını yazılıma, otomasyona ve AI destekli akışlara dönüştürürken süreci baştan sona görünür tutarız.",
+    "steps": [
+      "İhtiyacı anlıyoruz",
+      "Çözümü planlıyoruz",
+      "Tasarlayıp geliştiriyoruz",
+      "Yayına alıp iyileştiriyoruz"
+    ]
+  },
+  "trust": {
+    "eyebrow": "",
+    "title": "Tek seferlik iş gibi değil, yazılım firması disipliniyle kurulur.",
+    "cards": [
+      {
+        "title": "Ürün odaklı teslimat",
+        "description": "İş değiştikçe gelişebilen sistemler tasarlarız; sadece bugün güzel görünen sayfalar değil."
+      },
+      {
+        "title": "AI doğru yerde",
+        "description": "AI’yı operasyon, içerik üretimi ve iç araçlarda gerçek hız kazandırdığı noktalara yerleştiririz."
+      },
+      {
+        "title": "Mühendislik disiplini",
+        "description": "Entegrasyonlar, analytics, email ve dış servisler net sınırların arkasında izole kalır."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Sonraki adım",
+    "title": "Bir iş problemini çalışan bir dijital sisteme dönüştürelim.",
+    "description": "Neyi iyileştirmek istediğinizi paylaşın. En sade ve işe yarar başlangıç noktasını önerelim.",
+    "button": "Ücretsiz ön görüşme al"
+  },
+  "about": {
+    "metaTitle": "OzGen AI Hakkında",
+    "metaDescription": "OzGen AI, işletmelerin manuel işi azaltmasına, internette daha profesyonel görünmesine ve daha fazla müşteri kazanmasına yardımcı olur.",
+    "eyebrow": "Hakkımızda",
+    "title": "OzGen AI, AI destekli büyüme, otomasyon ve dijital ürün stüdyosudur.",
+    "description": "İşletmelerin manuel işi azaltmasına, dijital varlığını güçlendirmesine ve tekrarlayan operasyonlarını sisteme dönüştürmesine yardımcı oluruz.",
+    "body": [
+      "Çalışma alanımız bilinçli olarak odaklıdır: AI dönüşümü, web siteleri, reklam içerikleri, web ve mobil uygulamalar, pratik danışmanlık.",
+      "Belirsiz dönüşüm satmayız. İş akışını çıkarır, doğru başlangıç noktasını seçer, ürün veya otomasyonu kurar ve yayından sonra iyileştiririz."
+    ],
+    "principlesTitle": "Nasıl çalışıyoruz",
+    "principles": [
+      "İş kuralları provider araçlarından ayrı kalır.",
+      "Yan etkiler görünür ve bilinçli sırayla çalışır.",
+      "Her geliştirme altı ay sonra da anlaşılır ve değiştirilebilir olmalıdır."
+    ]
+  },
+  "contact": {
+    "metaTitle": "OzGen AI İletişim",
+    "metaDescription": "OzGen AI ile proje başlatın veya ücretsiz ön görüşme talep edin.",
+    "eyebrow": "İletişim",
+    "title": "İşletmenizin ihtiyacı olan yazılım sistemini netleştirelim.",
+    "description": "Neyin daha hızlı, daha otomatik veya daha profesyonel olması gerektiğini anlatın. Doğru başlangıç noktasını birlikte çıkaralım.",
+    "form": {
+      "name": "Ad Soyad",
+      "email": "Email",
+      "company": "Şirket / Marka",
+      "service": "İlgilendiğiniz hizmet",
+      "message": "Kısa açıklama",
+      "budget": "Bütçe aralığı",
+      "timeline": "Başlangıç zamanı",
+      "consent": "Bu talep hakkında benimle iletişime geçilmesini kabul ediyorum.",
+      "submit": "Talep gönder",
+      "submitting": "Gönderiliyor...",
+      "optional": "Opsiyonel",
+      "selectService": "Hizmet seçin",
+      "successTitle": "Talep alındı.",
+      "successDescription": "Teşekkürler. Notunuzu inceleyip pratik bir sonraki adımla geri döneceğiz.",
+      "errorTitle": "Talep gönderilemedi.",
+      "errorDescription": "Lütfen alanları kontrol edip tekrar deneyin."
+    },
+    "budgetOptions": [
+      "Henüz emin değilim",
+      "€2k altı",
+      "€2k-€5k",
+      "€5k-€10k",
+      "€10k+"
+    ],
+    "timelineOptions": [
+      "Henüz emin değilim",
+      "Bu ay",
+      "1-3 ay",
+      "3+ ay"
+    ]
+  },
+  "consent": {
+    "title": "Analytics onayı",
+    "description": "Onaydan sonra sayfa kullanımını aggregate olarak anlamak için GA4 ve Microsoft Clarity kullanıyoruz.",
+    "accept": "Analytics’e izin ver",
+    "reject": "Sadece gerekli"
+  },
+  "footer": {
+    "tagline": "Otomasyon kuruyoruz. Dijital ürünler geliştiriyoruz. AI destekli içerikler üretiyoruz.",
+    "copyright": "OzGen AI. Tüm hakları saklıdır."
+  }
+}

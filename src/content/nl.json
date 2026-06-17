@@ -1,0 +1,275 @@
+{
+  "localeName": "Nederlands",
+  "meta": {
+    "title": "OzGen AI | AI-groei, automatisering en digitale producten",
+    "description": "AI-ondersteunde groei, automatisering en digitale producten voor bedrijven die minder handmatig werk en meer klanten willen."
+  },
+  "nav": {
+    "services": "Diensten",
+    "work": "Referenties",
+    "about": "Over ons",
+    "contact": "Contact",
+    "consultation": "Gratis kennismaking",
+    "menu": "Menu"
+  },
+  "hero": {
+    "eyebrow": "AI-groeistudio voor bedrijven",
+    "title": "Minder handmatig werk. Een sterkere digitale aanwezigheid. Snellere groei.",
+    "description": "OzGen AI bouwt AI-automatiseringen, web- en mobiele producten, advertentiecontent en digitale transformatiesystemen voor bedrijven.",
+    "primaryCta": "Start een project",
+    "secondaryCta": "Bekijk diensten",
+    "pillars": [
+      "Automatiseren",
+      "Bouwen",
+      "Creëren"
+    ]
+  },
+  "techStack": {
+    "ariaLabel": "Verbonden dienstennetwerk",
+    "supportedPlatforms": "Ondersteunde platforms",
+    "openCapability": "{title} openen",
+    "nodes": [
+      {
+        "slug": "uygulama",
+        "title": "Mobiele apps",
+        "detail": "iOS en Android"
+      },
+      {
+        "slug": "web-sitesi",
+        "title": "Websites",
+        "detail": "Sites en portalen"
+      },
+      {
+        "slug": "reklam",
+        "title": "Social media",
+        "detail": "Content"
+      },
+      {
+        "slug": "ai-donusumu",
+        "title": "Automatisering",
+        "detail": "Operaties"
+      },
+      {
+        "slug": "danismanlik",
+        "title": "Advies",
+        "detail": "Strategie"
+      },
+      {
+        "slug": "marketing",
+        "title": "Marketing",
+        "detail": "Groei"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Diensten",
+    "title": "Software, automatisering en intelligente systemen onder één dak.",
+    "description": "We zijn eerst een softwarebedrijf. AI wordt onderdeel van het systeem waar het snelheid, duidelijkheid en schaal oplevert.",
+    "items": [
+      {
+        "slug": "ai-donusumu",
+        "shortTitle": "AI-transformatie",
+        "title": "We automatiseren herhalend werk met kunstmatige intelligentie.",
+        "description": "We bouwen systemen voor formulieren, e-mails, klantvragen, rapportages en opvolging zodat je team minder handmatig werk heeft.",
+        "features": [
+          "Klantsupport en leadopvolging",
+          "WhatsApp-, e-mail- en formulierautomatisering",
+          "Offerte-, rapportage- en contentflows",
+          "Interne assistenten met kunstmatige intelligentie"
+        ],
+        "result": "Je team beheert meer werk met minder operationele druk.",
+        "cta": "Analyseer mijn workflow",
+        "image": "/images/service-ai-automation.webp",
+        "imageAlt": "Business workflow automation dashboard with forms, messages, reports and assistant panels"
+      },
+      {
+        "slug": "web-sitesi",
+        "shortTitle": "Websites",
+        "title": "We bouwen snelle websites die vertrouwen geven en bezoekers omzetten in klanten.",
+        "description": "Corporate websites, landingspagina’s en meertalige structuren maken je digitale aanwezigheid helder, professioneel en conversiegericht.",
+        "features": [
+          "Corporate website",
+          "Product- of servicelandingspagina",
+          "Meertalige structuur",
+          "SEO- en performancegerichte setup"
+        ],
+        "result": "Je site ziet er niet alleen goed uit; hij stuurt bezoekers naar actie.",
+        "cta": "Plan mijn website",
+        "image": "/images/service-websites.webp",
+        "imageAlt": "Responsive corporate website and landing page mockups across desktop and mobile screens"
+      },
+      {
+        "slug": "reklam",
+        "shortTitle": "Ads & AI-content",
+        "title": "We maken snelle, opvallende en testbare advertentiecontent voor je merk.",
+        "description": "We bereiden video, visuals en creatieve content voor Instagram, TikTok en campagnes met ondersteuning van kunstmatige intelligentie.",
+        "features": [
+          "Realistische advertentievideo-concepten",
+          "Instagram- en TikTok-content",
+          "Product-, menu- en campagnevisuals",
+          "Echte opnames versterken met kunstmatige intelligentie"
+        ],
+        "result": "Je test meer ideeën en publiceert sterkere campagnes in minder tijd.",
+        "cta": "Bespreek mijn contentidee",
+        "image": "/images/service-ai-content.webp",
+        "imageAlt": "Advertising content production board with video timeline, campaign visuals and creative assets"
+      },
+      {
+        "slug": "uygulama",
+        "shortTitle": "Web & mobiele apps",
+        "title": "We ontwikkelen web- en mobiele apps op maat voor je bedrijf.",
+        "description": "We ontwerpen en bouwen digitale producten voor klanten of interne teams, van idee tot lancering.",
+        "features": [
+          "Webapplicaties en adminpanelen",
+          "iOS- en Android-apps",
+          "Reserverings-, bestel- en klantenportalen",
+          "Digitale menu-, catalogus- en bedrijfssystemen"
+        ],
+        "result": "Je bedrijf krijgt een bruikbaar en schaalbaar digitaal product.",
+        "cta": "Beoordeel mijn appidee",
+        "image": "/images/service-apps-poster.webp",
+        "imageAlt": "Web admin dashboard with iOS and Android application screens"
+      },
+      {
+        "slug": "danismanlik",
+        "shortTitle": "Consulting",
+        "title": "We maken duidelijk waar kunstmatige intelligentie en digitale transformatie moeten starten.",
+        "description": "We analyseren je behoeften en bepalen welke processen beter kunnen met automatisering, tools of digitale producten.",
+        "features": [
+          "Roadmap voor kunstmatige intelligentie",
+          "Proces- en toolanalyse",
+          "Technologiekeuze",
+          "Team- en operatieadvies"
+        ],
+        "result": "Je start op de juiste plek zonder budget te verspillen aan onnodige tools.",
+        "cta": "Boek een consult",
+        "image": "/images/service-consulting.webp",
+        "imageAlt": "Strategy roadmap and process planning board for digital transformation consulting"
+      },
+      {
+        "slug": "marketing",
+        "shortTitle": "Marketing",
+        "title": "We maken van je digitale aanwezigheid een meetbaar groeisysteem.",
+        "description": "We verbinden content, campagneplanning, analytics en leadopvolging zodat marketingbeslissingen duidelijker worden.",
+        "features": [
+          "Campagneplanning en lancering",
+          "Doelgroep-, funnel- en conversietracking",
+          "Contentkalender en creatieve tests",
+          "Leadopvolging en rapportageflows"
+        ],
+        "result": "Je marketing wordt makkelijker te beheren, meten en verbeteren.",
+        "cta": "Plan mijn marketing",
+        "image": "/images/service-marketing.webp",
+        "imageAlt": "Marketing operations dashboard with campaign planning, funnel analytics and content calendar panels"
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "Referenties",
+    "title": "Klantfeedback",
+    "description": "Geselecteerde referenties, vertaald naar alle sitetalen en aangepast op basis van bestaande klantfeedback.",
+    "pendingTitle": "Echte referenties worden voorbereid.",
+    "pendingDescription": "We tonen geen verzonnen klantlogo’s of opgeblazen resultaten. Goedgekeurd werk wordt toegevoegd na verificatie.",
+    "cta": "Bespreek uw project"
+  },
+  "process": {
+    "eyebrow": "Proces",
+    "title": "Een duidelijker pad van idee naar werkend product.",
+    "description": "We vertalen bedrijfsbehoeften naar software, automatisering en AI-ondersteunde workflows met een proces dat vanaf dag één zichtbaar blijft.",
+    "steps": [
+      "We begrijpen de behoefte",
+      "We plannen de oplossing",
+      "We ontwerpen en bouwen",
+      "We lanceren en verbeteren"
+    ]
+  },
+  "trust": {
+    "eyebrow": "Waarom OzGen AI",
+    "title": "Gebouwd als een softwarebedrijf, niet als een los project.",
+    "cards": [
+      {
+        "title": "Productgerichte oplevering",
+        "description": "We ontwerpen systemen die kunnen meegroeien, geen statische pagina’s die opnieuw gebouwd moeten worden zodra het bedrijf verandert."
+      },
+      {
+        "title": "AI waar het telt",
+        "description": "AI wordt gebruikt in workflows, contentprocessen en interne tools wanneer het echte operationele hefboomwerking geeft."
+      },
+      {
+        "title": "Engineeringdiscipline",
+        "description": "Integraties, analytics, e-mail en externe providers blijven geïsoleerd achter duidelijke contracten."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Volgende stap",
+    "title": "Laten we één bedrijfsprobleem omzetten in een werkend digitaal systeem.",
+    "description": "Vertel wat u wilt verbeteren. Wij stellen het eenvoudigste nuttige startpunt voor.",
+    "button": "Boek een gratis kennismaking"
+  },
+  "about": {
+    "metaTitle": "Over OzGen AI",
+    "metaDescription": "OzGen AI helpt bedrijven handmatig werk te verminderen, professioneler online te verschijnen en meer klanten te winnen.",
+    "eyebrow": "Over ons",
+    "title": "OzGen AI is een AI-ondersteunde studio voor groei, automatisering en digitale producten.",
+    "description": "We helpen bedrijven handmatig werk te verminderen, hun digitale aanwezigheid te versterken en herhalende operaties om te zetten in systemen.",
+    "body": [
+      "Onze focus is bewust beperkt: AI-transformatie, websites, advertentiecontent, web- en mobiele apps en praktisch advies.",
+      "We verkopen geen vage transformatie. We brengen de workflow in kaart, kiezen het juiste startpunt, bouwen product of automatisering en verbeteren na lancering."
+    ],
+    "principlesTitle": "Hoe we werken",
+    "principles": [
+      "Bedrijfsregels blijven gescheiden van provider-tools.",
+      "Bijwerkingen zijn zichtbaar en bewust geordend.",
+      "Elke oplossing moet zes maanden later nog begrijpelijk en aanpasbaar zijn."
+    ]
+  },
+  "contact": {
+    "metaTitle": "Contact met OzGen AI",
+    "metaDescription": "Start een project of vraag een gratis kennismaking aan met OzGen AI.",
+    "eyebrow": "Contact",
+    "title": "Vertel ons wat u wilt verbeteren.",
+    "description": "Houd het kort. We reageren met de beste eerste stap voor uw bedrijf.",
+    "form": {
+      "name": "Volledige naam",
+      "email": "E-mail",
+      "company": "Bedrijf / Merk",
+      "service": "Gewenste dienst",
+      "message": "Korte beschrijving",
+      "budget": "Budgetrange",
+      "timeline": "Startmoment",
+      "consent": "Ik ga akkoord dat er contact met mij wordt opgenomen over deze aanvraag.",
+      "submit": "Aanvraag verzenden",
+      "submitting": "Verzenden...",
+      "optional": "Optioneel",
+      "selectService": "Kies een dienst",
+      "successTitle": "Aanvraag ontvangen.",
+      "successDescription": "Dank u. We bekijken uw bericht en reageren met een praktische volgende stap.",
+      "errorTitle": "De aanvraag kon niet worden verzonden.",
+      "errorDescription": "Controleer de velden en probeer opnieuw."
+    },
+    "budgetOptions": [
+      "Nog niet zeker",
+      "Onder €2k",
+      "€2k-€5k",
+      "€5k-€10k",
+      "€10k+"
+    ],
+    "timelineOptions": [
+      "Nog niet zeker",
+      "Deze maand",
+      "1-3 maanden",
+      "3+ maanden"
+    ]
+  },
+  "consent": {
+    "title": "Analytics-toestemming",
+    "description": "Na toestemming gebruiken we GA4 en Microsoft Clarity om geaggregeerd gebruik te begrijpen.",
+    "accept": "Analytics toestaan",
+    "reject": "Alleen noodzakelijk"
+  },
+  "footer": {
+    "tagline": "Automatiseren. Bouwen. Creëren.",
+    "copyright": "OzGen AI. Alle rechten voorbehouden."
+  }
+}

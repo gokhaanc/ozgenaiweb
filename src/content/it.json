@@ -1,0 +1,275 @@
+{
+  "localeName": "Italiano",
+  "meta": {
+    "title": "OzGen AI | Crescita AI, automazione e prodotti digitali",
+    "description": "Studio di crescita, automazione e prodotti digitali supportati dall’AI per aziende che vogliono meno lavoro manuale e più clienti."
+  },
+  "nav": {
+    "services": "Servizi",
+    "work": "Referenze",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "consultation": "Prima call gratuita",
+    "menu": "Menu"
+  },
+  "hero": {
+    "eyebrow": "Studio di crescita AI per aziende",
+    "title": "Meno lavoro manuale. Presenza digitale più forte. Crescita più rapida.",
+    "description": "OzGen AI sviluppa automazioni AI, prodotti web e mobile, contenuti pubblicitari e sistemi di trasformazione digitale per aziende.",
+    "primaryCta": "Avvia un progetto",
+    "secondaryCta": "Scopri i servizi",
+    "pillars": [
+      "Automatizzare",
+      "Costruire",
+      "Creare"
+    ]
+  },
+  "techStack": {
+    "ariaLabel": "Rete di servizi collegati",
+    "supportedPlatforms": "Piattaforme supportate",
+    "openCapability": "Apri {title}",
+    "nodes": [
+      {
+        "slug": "uygulama",
+        "title": "App mobile",
+        "detail": "iOS e Android"
+      },
+      {
+        "slug": "web-sitesi",
+        "title": "Siti web",
+        "detail": "Siti e portali"
+      },
+      {
+        "slug": "reklam",
+        "title": "Social media",
+        "detail": "Contenuti"
+      },
+      {
+        "slug": "ai-donusumu",
+        "title": "Automazione",
+        "detail": "Operazioni"
+      },
+      {
+        "slug": "danismanlik",
+        "title": "Consulenza",
+        "detail": "Strategia"
+      },
+      {
+        "slug": "marketing",
+        "title": "Marketing",
+        "detail": "Crescita"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Servizi",
+    "title": "Software, automazione e sistemi intelligenti sotto lo stesso tetto.",
+    "description": "Prima di tutto siamo una società software. L’AI entra nel sistema dove crea velocità, chiarezza e scalabilità.",
+    "items": [
+      {
+        "slug": "ai-donusumu",
+        "shortTitle": "Trasformazione AI",
+        "title": "Automatizziamo il lavoro ripetitivo con l’intelligenza artificiale.",
+        "description": "Costruiamo sistemi per moduli, email, richieste clienti, report e follow-up, così il team riduce il lavoro manuale.",
+        "features": [
+          "Supporto clienti e tracciamento lead",
+          "Automazioni WhatsApp, email e moduli",
+          "Flussi per offerte, report e contenuti",
+          "Assistenti interni con intelligenza artificiale"
+        ],
+        "result": "Il tuo team gestisce più lavoro con meno carico operativo.",
+        "cta": "Analizza il mio workflow",
+        "image": "/images/service-ai-automation.webp",
+        "imageAlt": "Business workflow automation dashboard with forms, messages, reports and assistant panels"
+      },
+      {
+        "slug": "web-sitesi",
+        "shortTitle": "Siti web",
+        "title": "Realizziamo siti veloci che creano fiducia e trasformano i visitatori in clienti.",
+        "description": "Siti corporate, landing page e strutture multilingua rendono la presenza digitale chiara, professionale e orientata alla conversione.",
+        "features": [
+          "Sito corporate",
+          "Landing page per prodotto o servizio",
+          "Struttura multilingua",
+          "Setup orientato a SEO e performance"
+        ],
+        "result": "Il sito non è solo bello; guida i visitatori all’azione.",
+        "cta": "Pianifica il mio sito",
+        "image": "/images/service-websites.webp",
+        "imageAlt": "Responsive corporate website and landing page mockups across desktop and mobile screens"
+      },
+      {
+        "slug": "reklam",
+        "shortTitle": "Ads & contenuti AI",
+        "title": "Creiamo contenuti pubblicitari rapidi, visibili e testabili per il tuo brand.",
+        "description": "Prepariamo video, visual e creatività per Instagram, TikTok e campagne con supporto dell’intelligenza artificiale.",
+        "features": [
+          "Concept video pubblicitari realistici",
+          "Contenuti Instagram e TikTok",
+          "Visual per prodotti, menu e campagne",
+          "Riprese reali potenziate con intelligenza artificiale"
+        ],
+        "result": "Testi più idee e pubblichi campagne migliori in meno tempo.",
+        "cta": "Parliamo della mia idea",
+        "image": "/images/service-ai-content.webp",
+        "imageAlt": "Advertising content production board with video timeline, campaign visuals and creative assets"
+      },
+      {
+        "slug": "uygulama",
+        "shortTitle": "Web & mobile app",
+        "title": "Sviluppiamo applicazioni web e mobile su misura per la tua azienda.",
+        "description": "Progettiamo e sviluppiamo prodotti digitali per clienti o team interni, dall’idea al lancio.",
+        "features": [
+          "Applicazioni web e pannelli admin",
+          "App iOS e Android",
+          "Portali per prenotazioni, ordini e clienti",
+          "Menu, cataloghi e sistemi aziendali digitali"
+        ],
+        "result": "La tua azienda ottiene un prodotto digitale utile e scalabile.",
+        "cta": "Valuta la mia app",
+        "image": "/images/service-apps-poster.webp",
+        "imageAlt": "Web admin dashboard with iOS and Android application screens"
+      },
+      {
+        "slug": "danismanlik",
+        "shortTitle": "Consulenza",
+        "title": "Chiariamo da dove iniziare con intelligenza artificiale e trasformazione digitale.",
+        "description": "Analizziamo i bisogni dell’azienda e individuiamo i processi migliorabili con automazione, strumenti o prodotti digitali.",
+        "features": [
+          "Roadmap per intelligenza artificiale",
+          "Analisi di processi e strumenti",
+          "Scelta tecnologica",
+          "Consulenza per team e operations"
+        ],
+        "result": "Parti dal punto giusto senza sprecare budget in strumenti inutili.",
+        "cta": "Prenota una consulenza",
+        "image": "/images/service-consulting.webp",
+        "imageAlt": "Strategy roadmap and process planning board for digital transformation consulting"
+      },
+      {
+        "slug": "marketing",
+        "shortTitle": "Marketing",
+        "title": "Trasformiamo la presenza digitale in un sistema di crescita misurabile.",
+        "description": "Colleghiamo contenuti, campagne, analytics e follow-up dei lead per rendere il marketing più chiaro e migliorabile.",
+        "features": [
+          "Pianificazione e lancio campagne",
+          "Tracciamento audience, funnel e conversioni",
+          "Calendario contenuti e test creativi",
+          "Follow-up lead e reporting"
+        ],
+        "result": "Il marketing diventa più facile da gestire, misurare e migliorare.",
+        "cta": "Pianifica il marketing",
+        "image": "/images/service-marketing.webp",
+        "imageAlt": "Marketing operations dashboard with campaign planning, funnel analytics and content calendar panels"
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "Referenze",
+    "title": "Feedback clienti",
+    "description": "Referenze selezionate, tradotte nelle lingue del sito e adattate da feedback clienti esistenti.",
+    "pendingTitle": "Le referenze reali sono in preparazione.",
+    "pendingDescription": "Non mostriamo loghi inventati o risultati gonfiati. I lavori approvati saranno aggiunti dopo verifica.",
+    "cta": "Parliamo del progetto"
+  },
+  "process": {
+    "eyebrow": "Processo",
+    "title": "Un percorso più chiaro dall’idea al prodotto funzionante.",
+    "description": "Trasformiamo esigenze aziendali in software, automazione e workflow supportati dall’AI con un processo visibile dal primo giorno.",
+    "steps": [
+      "Comprendiamo il bisogno",
+      "Pianifichiamo la soluzione",
+      "Progettiamo e sviluppiamo",
+      "Lanciamo e miglioriamo"
+    ]
+  },
+  "trust": {
+    "eyebrow": "Perché OzGen AI",
+    "title": "Costruito come una società software, non come un progetto isolato.",
+    "cards": [
+      {
+        "title": "Delivery orientata al prodotto",
+        "description": "Progettiamo sistemi che possono evolvere, non pagine statiche da ricostruire quando cambia il business."
+      },
+      {
+        "title": "AI dove serve davvero",
+        "description": "L’AI viene usata in workflow, pipeline di contenuti e strumenti interni quando crea reale leva operativa."
+      },
+      {
+        "title": "Disciplina ingegneristica",
+        "description": "Integrazioni, analytics, email e provider esterni restano isolati dietro contratti chiari."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Prossimo passo",
+    "title": "Trasformiamo un problema aziendale in un sistema digitale funzionante.",
+    "description": "Condividi cosa vuoi migliorare. Ti proporremo il punto di partenza più semplice e utile.",
+    "button": "Prenota una prima call"
+  },
+  "about": {
+    "metaTitle": "Chi siamo | OzGen AI",
+    "metaDescription": "OzGen AI aiuta le aziende a ridurre il lavoro manuale, apparire più professionali online e conquistare più clienti.",
+    "eyebrow": "Chi siamo",
+    "title": "OzGen AI è uno studio di crescita, automazione e prodotti digitali supportato dall’AI.",
+    "description": "Aiutiamo le aziende a ridurre il lavoro manuale, rafforzare la presenza digitale e trasformare operazioni ripetitive in sistemi.",
+    "body": [
+      "Il focus è intenzionale: trasformazione AI, siti web, contenuti pubblicitari, applicazioni web e mobile, consulenza pratica.",
+      "Non vendiamo trasformazione vaga. Mappiamo il workflow, scegliamo il punto di partenza, costruiamo prodotto o automazione e miglioriamo dopo il lancio."
+    ],
+    "principlesTitle": "Come lavoriamo",
+    "principles": [
+      "Le regole di business restano separate dagli strumenti provider.",
+      "Gli effetti collaterali sono espliciti e ordinati.",
+      "Ogni soluzione deve essere comprensibile e modificabile anche dopo sei mesi."
+    ]
+  },
+  "contact": {
+    "metaTitle": "Contatta OzGen AI",
+    "metaDescription": "Avvia un progetto o richiedi una prima call gratuita con OzGen AI.",
+    "eyebrow": "Contatti",
+    "title": "Raccontaci cosa vuoi migliorare.",
+    "description": "Puoi essere breve. Risponderemo con il primo passo più adatto alla tua azienda.",
+    "form": {
+      "name": "Nome e cognome",
+      "email": "Email",
+      "company": "Azienda / Brand",
+      "service": "Servizio di interesse",
+      "message": "Breve descrizione",
+      "budget": "Budget",
+      "timeline": "Tempistiche",
+      "consent": "Accetto di essere contattato per questa richiesta.",
+      "submit": "Invia richiesta",
+      "submitting": "Invio...",
+      "optional": "Opzionale",
+      "selectService": "Scegli un servizio",
+      "successTitle": "Richiesta ricevuta.",
+      "successDescription": "Grazie. Valuteremo il messaggio e risponderemo con un prossimo passo pratico.",
+      "errorTitle": "La richiesta non è stata inviata.",
+      "errorDescription": "Controlla i campi e riprova."
+    },
+    "budgetOptions": [
+      "Non sono sicuro",
+      "Sotto €2k",
+      "€2k-€5k",
+      "€5k-€10k",
+      "€10k+"
+    ],
+    "timelineOptions": [
+      "Non sono sicuro",
+      "Questo mese",
+      "1-3 mesi",
+      "3+ mesi"
+    ]
+  },
+  "consent": {
+    "title": "Consenso analytics",
+    "description": "Dopo il consenso usiamo GA4 e Microsoft Clarity per capire l’uso in forma aggregata.",
+    "accept": "Consenti analytics",
+    "reject": "Solo necessario"
+  },
+  "footer": {
+    "tagline": "Automatizzare. Costruire. Creare.",
+    "copyright": "OzGen AI. Tutti i diritti riservati."
+  }
+}

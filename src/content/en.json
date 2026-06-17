@@ -1,0 +1,275 @@
+{
+  "localeName": "English",
+  "meta": {
+    "title": "OzGen AI | AI Growth, Automation and Digital Products",
+    "description": "AI-supported growth, automation and digital product studio for businesses that want less manual work, a stronger digital presence and more customers."
+  },
+  "nav": {
+    "services": "Services",
+    "work": "References",
+    "about": "About",
+    "contact": "Contact",
+    "consultation": "Free Discovery Call",
+    "menu": "Menu"
+  },
+  "hero": {
+    "eyebrow": "",
+    "title": "Less manual work.\nStronger digital presence.\nFaster growth.",
+    "description": "We help businesses reduce manual work, look more professional online and win more customers with software and artificial intelligence.",
+    "primaryCta": "Start a project",
+    "secondaryCta": "Explore services",
+    "pillars": [
+      "Automate",
+      "Build",
+      "Create"
+    ]
+  },
+  "techStack": {
+    "ariaLabel": "Connected service network",
+    "supportedPlatforms": "Supported platforms",
+    "openCapability": "Open {title} capability",
+    "nodes": [
+      {
+        "slug": "uygulama",
+        "title": "Mobile apps",
+        "detail": "iOS & Android"
+      },
+      {
+        "slug": "web-sitesi",
+        "title": "Websites",
+        "detail": "Sites & portals"
+      },
+      {
+        "slug": "reklam",
+        "title": "Social media",
+        "detail": "Content"
+      },
+      {
+        "slug": "ai-donusumu",
+        "title": "Automation",
+        "detail": "Operations"
+      },
+      {
+        "slug": "danismanlik",
+        "title": "Consulting",
+        "detail": "Strategy"
+      },
+      {
+        "slug": "marketing",
+        "title": "Marketing",
+        "detail": "Growth"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "",
+    "title": "Software, automation and intelligent systems under one roof.",
+    "description": "",
+    "items": [
+      {
+        "slug": "ai-donusumu",
+        "shortTitle": "AI Transformation",
+        "title": "We automate repetitive work with artificial intelligence.",
+        "description": "We build systems for forms, emails, customer requests, reports and follow-up workflows so your team spends less time on manual operations.",
+        "features": [
+          "Customer support and lead tracking systems",
+          "WhatsApp, email and form automations",
+          "Proposal, report and content production flows",
+          "Internal artificial intelligence assistants"
+        ],
+        "result": "Your team manages more work with less operational load.",
+        "cta": "Analyze my workflow",
+        "image": "/images/service-ai-automation.webp",
+        "imageAlt": "Business workflow automation dashboard with forms, messages, reports and assistant panels"
+      },
+      {
+        "slug": "web-sitesi",
+        "shortTitle": "Websites",
+        "title": "We build fast websites that create trust and turn visitors into customers.",
+        "description": "Corporate websites, landing pages and multilingual web structures make your digital presence clear, professional and conversion-focused.",
+        "features": [
+          "Corporate websites",
+          "Product or service landing pages",
+          "Multilingual site structure",
+          "SEO and performance-focused setup"
+        ],
+        "result": "Your website does more than look good; it guides visitors toward action.",
+        "cta": "Plan my website",
+        "image": "/images/service-websites.webp",
+        "imageAlt": "Responsive corporate website and landing page mockups across desktop and mobile screens"
+      },
+      {
+        "slug": "reklam",
+        "shortTitle": "Ads & AI Content",
+        "title": "We create fast, attention-ready ad content for your brand.",
+        "description": "We prepare artificial intelligence supported video, visual and creative content for Instagram, TikTok and campaign testing.",
+        "features": [
+          "Realistic advertising video concepts",
+          "Instagram and TikTok content systems",
+          "Product, menu and campaign visuals",
+          "Enhancing real shoots with artificial intelligence"
+        ],
+        "result": "You test more content ideas and publish stronger campaigns in less time.",
+        "cta": "Discuss my content idea",
+        "image": "/images/service-ai-content.webp",
+        "imageAlt": "Advertising content production board with video timeline, campaign visuals and creative assets"
+      },
+      {
+        "slug": "uygulama",
+        "shortTitle": "Web & Mobile Apps",
+        "title": "We develop custom web and mobile applications for your business.",
+        "description": "We design and build digital products for your customers or internal teams from idea to launch.",
+        "features": [
+          "Web applications and admin panels",
+          "iOS and Android mobile applications",
+          "Booking, ordering and customer portals",
+          "Digital menu, catalog and business systems"
+        ],
+        "result": "Your business gets a usable, scalable digital product built around its real workflows.",
+        "cta": "Review my app idea",
+        "image": "/images/service-apps-poster.webp",
+        "imageAlt": "Web admin dashboard with iOS and Android application screens"
+      },
+      {
+        "slug": "danismanlik",
+        "shortTitle": "Consulting",
+        "title": "We clarify where artificial intelligence and digital transformation should start.",
+        "description": "We analyze your business needs and identify which processes can improve through automation, better tools or digital products.",
+        "features": [
+          "Artificial intelligence transformation roadmap",
+          "Process and tool analysis",
+          "Technology selection",
+          "Team and operations consulting"
+        ],
+        "result": "You start from the right place without wasting budget on unnecessary tools.",
+        "cta": "Book a consulting call",
+        "image": "/images/service-consulting.webp",
+        "imageAlt": "Strategy roadmap and process planning board for digital transformation consulting"
+      },
+      {
+        "slug": "marketing",
+        "shortTitle": "Marketing",
+        "title": "We turn your digital presence into a measurable growth system.",
+        "description": "We connect content, campaign planning, analytics and lead follow-up so marketing decisions become clearer and easier to improve.",
+        "features": [
+          "Campaign planning and launch structure",
+          "Audience, funnel and conversion tracking",
+          "Content calendar and creative testing",
+          "Lead follow-up and reporting workflows"
+        ],
+        "result": "Your marketing becomes easier to manage, measure and improve over time.",
+        "cta": "Plan my marketing system",
+        "image": "/images/service-marketing.webp",
+        "imageAlt": "Marketing operations dashboard with campaign planning, funnel analytics and content calendar panels"
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "",
+    "title": "Client feedback",
+    "description": "",
+    "pendingTitle": "Real references are being prepared.",
+    "pendingDescription": "We do not show fake customer logos or inflated results. Approved client work will be added here once the visuals and outcomes are verified.",
+    "cta": "Talk about your project"
+  },
+  "process": {
+    "eyebrow": "",
+    "title": "A clearer path from idea to working product.",
+    "description": "We turn business needs into software, automation and AI-supported workflows with a process that stays visible from day one.",
+    "steps": [
+      "We understand the need",
+      "We plan the solution",
+      "We design and build",
+      "We launch and improve"
+    ]
+  },
+  "trust": {
+    "eyebrow": "",
+    "title": "Built like a software company, not a one-off project.",
+    "cards": [
+      {
+        "title": "Product-minded delivery",
+        "description": "We design systems that can evolve, not static pages that need to be rebuilt when the business changes."
+      },
+      {
+        "title": "AI where it matters",
+        "description": "AI is used inside workflows, content pipelines and internal tools when it creates real operational leverage."
+      },
+      {
+        "title": "Engineering discipline",
+        "description": "Integrations, analytics, email and external providers stay isolated behind clear contracts."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Next step",
+    "title": "Let’s turn one business problem into a working digital system.",
+    "description": "Share what you want to improve. We will suggest the simplest useful starting point.",
+    "button": "Book a free discovery call"
+  },
+  "about": {
+    "metaTitle": "About OzGen AI",
+    "metaDescription": "OzGen AI helps businesses reduce manual work, look more professional online and win more customers with AI-supported systems.",
+    "eyebrow": "About",
+    "title": "OzGen AI is an AI-supported growth, automation and digital product studio.",
+    "description": "We help businesses reduce manual work, strengthen their digital presence and turn repeatable operations into systems.",
+    "body": [
+      "The work is intentionally focused: AI transformation, websites, advertising content, web and mobile applications, and practical consulting.",
+      "We do not sell vague transformation. We map the workflow, choose the right starting point, build the product or automation, and improve it after launch."
+    ],
+    "principlesTitle": "How we work",
+    "principles": [
+      "Business rules stay separate from provider tools.",
+      "Side effects are explicit and intentionally ordered.",
+      "Every build should be understandable and maintainable six months later."
+    ]
+  },
+  "contact": {
+    "metaTitle": "Contact OzGen AI",
+    "metaDescription": "Start a project or request a free discovery call with OzGen AI.",
+    "eyebrow": "Contact",
+    "title": "Let’s define the software system your business needs.",
+    "description": "Tell us what should become faster, more automated or more professional. We will map the right starting point.",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "company": "Company / Brand",
+      "service": "Service of interest",
+      "message": "Short description",
+      "budget": "Budget range",
+      "timeline": "Start timing",
+      "consent": "I agree to be contacted about this request.",
+      "submit": "Send request",
+      "submitting": "Sending...",
+      "optional": "Optional",
+      "selectService": "Select a service",
+      "successTitle": "Request received.",
+      "successDescription": "Thanks. We will review your note and reply with a practical next step.",
+      "errorTitle": "The request could not be sent.",
+      "errorDescription": "Please check the fields and try again."
+    },
+    "budgetOptions": [
+      "Not sure yet",
+      "Under €2k",
+      "€2k-€5k",
+      "€5k-€10k",
+      "€10k+"
+    ],
+    "timelineOptions": [
+      "Not sure yet",
+      "This month",
+      "1-3 months",
+      "3+ months"
+    ]
+  },
+  "consent": {
+    "title": "Analytics consent",
+    "description": "We use GA4 and Microsoft Clarity to understand aggregate page usage after consent.",
+    "accept": "Allow analytics",
+    "reject": "Only necessary"
+  },
+  "footer": {
+    "tagline": "Custom software, automation and AI-supported digital systems for businesses that want to scale with less friction.",
+    "copyright": "OzGen AI. All rights reserved."
+  }
+}
