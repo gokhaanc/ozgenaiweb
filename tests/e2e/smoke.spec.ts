@@ -14,6 +14,75 @@ test("localized landing page renders and tabs work", async ({ page }) => {
   ).toBeVisible();
 });
 
+test("mobile service tab strip updates content while swiping", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/en");
+
+  const services = page.locator("#services");
+  await services.scrollIntoViewIfNeeded();
+  await expect(
+    services.getByRole("heading", {
+      name: "We automate repetitive work with artificial intelligence.",
+    }),
+  ).toBeVisible();
+
+  await services.locator('[data-service-tab="web-sitesi"]').evaluate((button) => {
+    const tabList = button.parentElement;
+
+    if (!tabList) {
+      return;
+    }
+
+    const tabListRect = tabList.getBoundingClientRect();
+    const buttonRect = button.getBoundingClientRect();
+
+    tabList.scrollLeft +=
+      buttonRect.left + buttonRect.width / 2 -
+      (tabListRect.left + tabListRect.width / 2);
+    tabList.dispatchEvent(new Event("scroll", { bubbles: true }));
+  });
+
+  await expect(
+    services.getByRole("heading", {
+      name: /We build fast websites/i,
+    }),
+  ).toBeVisible();
+
+  await services.locator('[data-service-tab="marketing"]').evaluate((button) => {
+    const tabList = button.parentElement;
+
+    if (!tabList) {
+      return;
+    }
+
+    tabList.scrollLeft = tabList.scrollWidth;
+    tabList.dispatchEvent(new Event("scroll", { bubbles: true }));
+  });
+
+  await expect(
+    services.getByRole("heading", {
+      name: /We turn your digital presence/i,
+    }),
+  ).toBeVisible();
+
+  await services.locator('[data-service-tab="ai-donusumu"]').evaluate((button) => {
+    const tabList = button.parentElement;
+
+    if (!tabList) {
+      return;
+    }
+
+    tabList.scrollLeft = 0;
+    tabList.dispatchEvent(new Event("scroll", { bubbles: true }));
+  });
+
+  await expect(
+    services.getByRole("heading", {
+      name: "We automate repetitive work with artificial intelligence.",
+    }),
+  ).toBeVisible();
+});
+
 test("Turkish page and contact service preselection render", async ({ page }) => {
   await page.goto("/tr");
   await expect(page.getByRole("heading", { name: /Daha az manuel iş/i })).toBeVisible();

@@ -412,6 +412,28 @@ a {
     width: min(100% - 32px, 1200px);
     padding-block: 56px;
   }
+
+  .tech-line {
+    stroke: rgb(148 163 184 / 0.13);
+    stroke-width: 1;
+  }
+
+  .tech-signal-path {
+    display: none;
+  }
+
+  .tech-node-card::before {
+    inset: -2px;
+    border-radius: 16px;
+    box-shadow:
+      0 0 0 1px rgb(255 255 255 / 0.5),
+      0 8px 20px rgb(18 63 140 / 0.08);
+  }
+
+  .tech-node-card.is-receiving::before {
+    animation: none;
+    opacity: 0;
+  }
 }
 
 @media (min-width: 1280px) {

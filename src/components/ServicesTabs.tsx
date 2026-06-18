@@ -2,7 +2,14 @@
 
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import { useEffect, useMemo, useState, type CSSProperties } from "react";
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type CSSProperties,
+} from "react";
 import type { ServiceContent, SiteContent } from "@/content/site";
 import type { Locale } from "@/i18n/routing";
 import { trackEvent } from "@/lib/analytics";
@@ -14,11 +21,17 @@ type ServicesTabsProps = {
   content: SiteContent["services"];
 };
 
+function usesDesktopTabList() {
+  return window.matchMedia?.("(min-width: 1024px)").matches ?? false;
+}
+
 export function ServicesTabs({ locale, content }: ServicesTabsProps) {
   const [activeSlug, setActiveSlug] = useState<ServiceSlug>(
     content.items[0].slug as ServiceSlug,
   );
   const [userControlled, setUserControlled] = useState(false);
+  const tabListRef = useRef<HTMLDivElement>(null);
+  const scrollFrameRef = useRef<number | null>(null);
 
   const serviceSlugs = useMemo(
     () => content.items.map((item) => item.slug as ServiceSlug),
@@ -38,6 +51,73 @@ export function ServicesTabs({ locale, content }: ServicesTabsProps) {
     trackEvent("service_tab_click", { service: slug });
   }
 
+  const syncActiveTabToScroll = useCallback(() => {
+    const tabList = tabListRef.current;
+
+    if (!tabList || usesDesktopTabList()) {
+      return;
+    }
+
+    const tabListRect = tabList.getBoundingClientRect();
+    const tabListCenter = tabListRect.left + tabListRect.width / 2;
+    const buttons = Array.from(
+      tabList.querySelectorAll<HTMLButtonElement>("[data-service-tab]"),
+    );
+    const maxScrollLeft = tabList.scrollWidth - tabList.clientWidth;
+    const edgeThreshold = 4;
+    const edgeSlug =
+      tabList.scrollLeft <= edgeThreshold
+        ? serviceSlugs[0]
+        : tabList.scrollLeft >= maxScrollLeft - edgeThreshold
+          ? serviceSlugs[serviceSlugs.length - 1]
+          : null;
+
+    if (edgeSlug) {
+      if (edgeSlug !== activeSlug) {
+        setUserControlled(true);
+        setActiveSlug(edgeSlug);
+      }
+
+      return;
+    }
+
+    const closest = buttons.reduce<{
+      distance: number;
+      slug: ServiceSlug | null;
+    }>(
+      (nearest, button) => {
+        const slug = button.dataset.serviceTab as ServiceSlug | undefined;
+
+        if (!slug || !serviceSlugs.includes(slug)) {
+          return nearest;
+        }
+
+        const buttonRect = button.getBoundingClientRect();
+        const buttonCenter = buttonRect.left + buttonRect.width / 2;
+        const distance = Math.abs(buttonCenter - tabListCenter);
+
+        return distance < nearest.distance ? { distance, slug } : nearest;
+      },
+      { distance: Number.POSITIVE_INFINITY, slug: null },
+    );
+
+    if (closest.slug && closest.slug !== activeSlug) {
+      setUserControlled(true);
+      setActiveSlug(closest.slug);
+    }
+  }, [activeSlug, serviceSlugs]);
+
+  function handleTabListScroll() {
+    if (scrollFrameRef.current !== null) {
+      return;
+    }
+
+    scrollFrameRef.current = window.requestAnimationFrame(() => {
+      scrollFrameRef.current = null;
+      syncActiveTabToScroll();
+    });
+  }
+
   useEffect(() => {
     if (userControlled) {
       return;
@@ -52,6 +132,14 @@ export function ServicesTabs({ locale, content }: ServicesTabsProps) {
 
     return () => window.clearInterval(interval);
   }, [serviceSlugs, userControlled]);
+
+  useEffect(() => {
+    return () => {
+      if (scrollFrameRef.current !== null) {
+        window.cancelAnimationFrame(scrollFrameRef.current);
+      }
+    };
+  }, []);
 
   useEffect(() => {
     function handleNodeSelect(event: Event) {
@@ -89,7 +177,11 @@ export function ServicesTabs({ locale, content }: ServicesTabsProps) {
               <span className="h-2 w-2 rounded-full bg-slate-300" />
               <span className="h-2 w-2 rounded-full bg-[#123f8c]" />
             </div>
-            <div className="flex min-w-0 flex-1 gap-2 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            <div
+              ref={tabListRef}
+              className="flex min-w-0 flex-1 snap-x snap-mandatory gap-2 overflow-x-auto scroll-px-2 px-0.5 [scrollbar-width:none] lg:scroll-px-0 lg:px-0 [&::-webkit-scrollbar]:hidden"
+              onScroll={handleTabListScroll}
+            >
               {content.items.map((item) => {
                 const slug = item.slug as ServiceSlug;
                 const isActive = activeSlug === slug;
@@ -98,12 +190,27 @@ export function ServicesTabs({ locale, content }: ServicesTabsProps) {
                   <button
                     key={item.slug}
                     type="button"
-                    className={`service-app-tab flex h-10 min-w-fit flex-1 items-center justify-center rounded-full border px-4 text-sm font-semibold transition duration-500 ${
+                    data-service-tab={slug}
+                    aria-pressed={isActive}
+                    className={`service-app-tab flex h-10 min-w-[8.5rem] flex-none snap-center items-center justify-center rounded-full border px-4 text-sm font-semibold transition duration-500 lg:min-w-fit lg:flex-1 ${
                       isActive
                         ? "is-active border-[#123f8c] bg-[#06101f] text-white shadow-lg shadow-[#123f8c]/18"
                         : "border-transparent bg-white/52 text-slate-600 hover:border-slate-200 hover:bg-white/78 hover:text-slate-950"
                     }`}
-                    onClick={() => selectService(slug)}
+                    onClick={(event) => {
+                      selectService(slug);
+
+                      if (
+                        !usesDesktopTabList() &&
+                        typeof event.currentTarget.scrollIntoView === "function"
+                      ) {
+                        event.currentTarget.scrollIntoView({
+                          behavior: "smooth",
+                          block: "nearest",
+                          inline: "nearest",
+                        });
+                      }
+                    }}
                   >
                     <span className="relative z-10 whitespace-nowrap">
                       {item.shortTitle}

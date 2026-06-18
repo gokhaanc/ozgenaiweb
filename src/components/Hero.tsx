@@ -16,7 +16,7 @@ export function Hero({ content }: HeroProps) {
       ];
 
   return (
-    <section className="relative isolate flex min-h-[62vh] items-center overflow-hidden bg-[#edf4ff] px-5 pb-12 pt-[7.25rem] md:min-h-[58vh] md:px-10 md:pb-14 md:pt-[8rem]">
+    <section className="relative isolate flex min-h-[52svh] items-start overflow-hidden bg-[#edf4ff] px-5 pb-8 pt-[6.875rem] md:min-h-[58vh] md:items-center md:px-10 md:pb-14 md:pt-[8rem]">
       <Image
         src="/images/hero-systems-bg.webp"
         alt=""

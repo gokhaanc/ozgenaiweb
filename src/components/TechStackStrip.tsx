@@ -39,27 +39,27 @@ type PlatformLogo = {
 const networkNodePositions: PositionedNode[] = [
   {
     slug: "uygulama",
-    position: "left-[24%] top-[22%]",
+    position: "left-[22%] top-[22%] md:left-[24%]",
   },
   {
     slug: "web-sitesi",
-    position: "left-[24%] top-[50%]",
+    position: "left-[22%] top-[50%] md:left-[24%]",
   },
   {
     slug: "reklam",
-    position: "left-[24%] top-[78%]",
+    position: "left-[22%] top-[78%] md:left-[24%]",
   },
   {
     slug: "ai-donusumu",
-    position: "left-[76%] top-[22%]",
+    position: "left-[78%] top-[22%] md:left-[76%]",
   },
   {
     slug: "danismanlik",
-    position: "left-[76%] top-[50%]",
+    position: "left-[78%] top-[50%] md:left-[76%]",
   },
   {
     slug: "marketing",
-    position: "left-[76%] top-[78%]",
+    position: "left-[78%] top-[78%] md:left-[76%]",
   },
 ];
 
@@ -175,7 +175,7 @@ export function TechStackStrip({ content }: { content: TechStackContent }) {
 
   return (
     <section
-      className="relative z-10 mx-auto -mt-8 w-full max-w-7xl px-5 pb-4 md:-mt-10 md:px-10"
+      className="relative z-10 mx-auto -mt-[3.25rem] w-full max-w-7xl px-5 pb-4 md:-mt-10 md:px-10"
       aria-label={content.ariaLabel}
     >
       <div className="relative mx-auto h-[232px] max-w-6xl overflow-visible md:h-[252px]">
@@ -229,12 +229,12 @@ export function TechStackStrip({ content }: { content: TechStackContent }) {
               pathLength={100}
             />
           </svg>
-          <div className="absolute left-1/2 top-1/2 h-[66px] w-[66px] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-[18px] border border-white/95 bg-white shadow-[0_18px_44px_rgba(15,23,42,0.18)] ring-1 ring-slate-200/90">
+          <div className="absolute left-1/2 top-1/2 h-12 w-12 -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-[14px] border border-white/95 bg-white shadow-[0_14px_30px_rgba(15,23,42,0.16)] ring-1 ring-slate-200/90 md:h-[66px] md:w-[66px] md:rounded-[18px] md:shadow-[0_18px_44px_rgba(15,23,42,0.18)]">
             <Image
               src={logoSrc}
               alt=""
               fill
-              sizes="66px"
+              sizes="(max-width: 767px) 48px, 66px"
               className="object-contain p-1.5 drop-shadow-[0_3px_5px_rgba(15,23,42,0.28)]"
             />
           </div>
@@ -243,7 +243,7 @@ export function TechStackStrip({ content }: { content: TechStackContent }) {
               <button
                 key={node.slug}
                 type="button"
-                className={`tech-node-card absolute ${node.position} group flex h-[52px] w-[162px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-[16px] border border-white/70 bg-white/58 px-5 text-center text-slate-800 shadow-xl shadow-slate-950/10 ring-1 ring-slate-200/55 backdrop-blur-xl transition duration-300 hover:scale-[1.025] hover:border-[#1597d3]/45 hover:bg-white/82 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1597d3] md:h-[58px] md:w-[186px] ${
+                className={`tech-node-card absolute ${node.position} group flex h-[50px] w-[132px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-[14px] border border-white/70 bg-white/62 px-3 text-center text-slate-800 shadow-lg shadow-slate-950/10 ring-1 ring-slate-200/55 backdrop-blur-xl transition duration-300 hover:scale-[1.025] hover:border-[#1597d3]/45 hover:bg-white/82 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1597d3] md:h-[58px] md:w-[186px] md:rounded-[16px] md:px-5 md:shadow-xl ${
                   receivingNodeIndex === index ? "is-receiving" : ""
                 }`}
                 aria-label={formatOpenCapability(
